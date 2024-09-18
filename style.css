@@ -1,0 +1,314 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding-bottom:20px ;
+     position: sticky;
+     top: 0;
+     /* width: 100%;
+     */
+   
+}
+.left-nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 0px 0px 20px; */
+    padding-top: 30px;
+    padding-left: 60px;
+    gap: 15px;
+
+}
+.right-nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 20px 0px 0px; */
+    padding-top: 30px;
+    padding-right: 60px;
+    gap: 10px;
+}
+#line
+{
+    height: 40px;
+}
+nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.container
+{  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 17px;
+    /* padding-top: 103px;  */
+} 
+.cont-text
+{
+    font-size: 22px;
+    font-weight: 600;
+}
+.cont-btn
+{
+    display: flex;
+    width: 350px;
+    background-color: rgb(128, 122, 122);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    justify-content: center;
+    border-radius: 30px;
+}
+button
+{
+    background-color: transparent;
+    height: 30px;
+    width: 90px;
+    color: #ccc;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#bt2
+{
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+}
+.main-img
+{   margin-top: 30px;
+    width: 100%;
+}
+.main-img img
+{
+    width: 100%;
+}
+.main-container
+{
+   padding-left: 300px;
+   padding-top: 100px;
+   padding-right: 80px;
+   padding-bottom: 90px;
+   width: 100%;
+}
+.container-browser
+{  
+    /* margin-top: 60px; */
+   display: flex;
+   /* padding-left: 60px; */
+   /* margin-left: 90px; */
+}
+.line
+{
+    height: 1px;
+    background-color:rgb(141, 137, 137) ;
+    flex: 1;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.for-img
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px;
+}
+.images
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    flex: 1;
+    cursor: pointer;
+}
+.images button
+{
+   display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding-top:  15px;
+    padding-bottom: 15px;
+    color: black;
+    background-color: #dcd8d8;
+    cursor: pointer;
+}
+#btn1
+{
+    font-size: 12px;
+}
+.footer-main
+{
+    
+    background-color: rgb(6, 6, 6);
+    width: 100%;
+} 
+.img-black
+{
+ padding-left: 300px;
+}
+.text h2
+{
+    color: white;
+}
+.head h5
+{
+    color: white;
+}
+.offer-zone
+{   padding-left: 300px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 160px;
+}
+.offerzone-pic
+{
+   
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    /* padding-right: 50px;  */
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 100px;
+
+}
+.imgcase{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.img
+{
+    width: 100%;
+}  
+.offer-btn button
+{
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    color: black;
+    border-radius: 30px;
+}
+.offer-btn button i
+{
+    font-size: 20px;
+}
+.sub-btn
+{
+    
+    padding-left: 20px;
+    background-color:#ffff;
+    
+}
+.sub-btn button
+{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 12px;
+    color: black;
+}
+.sub-btn button:hover
+{
+    background-color: black;
+    color: white;
+
+}
+.sub-btn a
+{
+    color: #ccc;
+   
+}
+.sub-btn a:hover
+{
+    background-color: #a6a3a3;
+}
+.end-footer
+{
+    display: flex;
+    padding-left: 160px;
+    padding-top: 160px;
+}
+.end-sectiontext
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px 30px 30px;
+    gap: 15px;
+}
+.end-sectiontext a
+{
+    text-decoration: none;
+    color: white;
+}
+.map
+{
+    display: flex;
+    gap: 8px;
+    padding-left: 10px;
+}
+.map img{
+    height: 13px;
+    width: 13px;
+}
+.map a 
+{
+    color: white;
+}
+.social-media 
+{
+    display: flex;
+    padding-left: 90px ;
+    gap: 30px;
+}
+.social-media img
+{
+    width: 60px;
+    height: 30px;
+}
+.ios img
+{
+    width: 100px;
+    height: 100px;
+}
+.final-footer
+{
+    display: flex;
+}
+.final-footer p
+{
+    color: white;
+    margin: auto;
+    font-size: 10px;
+}
+.final-imga
+{
+    display: flex;
+    padding-right: 90px;
+}
+.final-imga img
+{
+    width: 30px;
+    height: 30px;
+}
